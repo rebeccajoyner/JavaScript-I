@@ -73,6 +73,7 @@ console.log(int3.email);
 
 console.log(int4.name);
 
+
 // Antonietta's Gender
 
 console.log(int5.name);
@@ -81,7 +82,7 @@ console.log(int5.name);
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
 
-int2.speak = function () {
+speak = function () {
   return ('Hello, my name is ' + this.name);
 }
 console.log(int2.speak());
