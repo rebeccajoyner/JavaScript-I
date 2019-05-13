@@ -59,13 +59,23 @@ const int5 = {
 
 // Mitzi's name
 
+console.log(int1.name);
+
 // Kennan's ID
+
+console.log(int2.id);
 
 // Keven's email
 
+console.log(int3.email);
+
 // Gannie's name
 
+console.log(int4.name);
+
 // Antonietta's Gender
+
+console.log(int5.name);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
