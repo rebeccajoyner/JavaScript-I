@@ -78,11 +78,12 @@ console.log(int4.name);
 
 console.log(int5.name);
 
+
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
 
-speak = function () {
+int2.speak = function () {
   return ('Hello, my name is ' + this.name);
 }
 console.log(int2.speak());
